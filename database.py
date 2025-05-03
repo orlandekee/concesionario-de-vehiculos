@@ -1,3 +1,6 @@
+"""
+Módulo para manejar la conexión a una base de datos MySQL."""
+
 import mysql.connector
 
 class DatabaseManager:

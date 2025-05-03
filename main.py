@@ -10,9 +10,10 @@ Clases y funciones principales:
 - ConcesionarioGUI: Clase para la interfaz gráfica de usuario.
 - main: Punto de entrada que inicializa y ejecuta la aplicación.
 """
-from database_manager import DatabaseManager
-from gui import GUI
-import ttkbootstrap as ttkb
+import ttkbootstrap as ttkb  # Módulo de terceros
+
+from database import DatabaseManager  # Módulo interno
+from gui import GUI  # Módulo interno
 
 # Crear instancia de DatabaseManager
 db_manager = DatabaseManager(
