@@ -1,5 +1,5 @@
 """
-Módulo para manejar la conexión a una base de datos MySQL."""
+Módulo para manejar la interfaz gráfica base de datos MySQL."""
 from tkinter import ttk
 import ttkbootstrap as ttkb
 import mysql.connector
