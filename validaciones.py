@@ -1,5 +1,5 @@
 """
-Módulo de validaciones para la gestión de vehículos."""
+Módulo de validaciones para la gestión de vehículos, para evitar errores de procesamiento."""
 def validar_campos(datos):
     """
     Valida los campos de entrada antes de agregar un vehículo.
